@@ -1,0 +1,30 @@
+print('Welcome to my computer quiz ')
+playing = input('Would you like to play ')
+if playing != "yes":
+   quit()
+print("ok lets play")
+score = 0
+
+answer = input('What is the first ever number that exsicsted')
+if answer != "60":
+  print('no it is not ' + answer)
+else:
+  print('splendid! It is ' + answer )
+  score = +1
+answer = input('What is the most common name starting with H')
+if answer !="Hannah":
+  print("no it is not " + answer)
+else:
+  print('yes it is ' + answer)
+  score += 2
+answer = input('is crayola a pronoun? ')
+if answer != "yes":
+  print("no it is not " )
+else:
+  print('yes it is ' )
+  score += 3
+print("you got" + str(score) + "questioins correctly")
+print("you got" + str(score / 4 * 100) + "%.")
+
+  
+  
